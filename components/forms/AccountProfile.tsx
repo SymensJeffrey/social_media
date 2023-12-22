@@ -105,7 +105,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
               <FormControl className="flex-1 text-base-semibold text-gray-200">
                 <Input
                   type="text"
-                  className="acount-form_input no-focus"
+                  className="account-form_input no-focus"
                   {...field}
                 />
               </FormControl>
@@ -124,7 +124,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
               <FormControl className="flex-1 text-base-semibold text-gray-200">
                 <Input
                   type="text"
-                  className="acount-form_input no-focus"
+                  className="account-form_input no-focus"
                   {...field}
                 />
               </FormControl>
@@ -143,7 +143,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
               <FormControl className="flex-1 text-base-semibold text-gray-200">
                 <Textarea
                   rows={10}
-                  className="acount-form_input no-focus"
+                  className="account-form_input no-focus"
                   {...field}
                 />
               </FormControl>
